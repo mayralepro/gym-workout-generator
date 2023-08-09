@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--green);
+  margin-top: 100px;
 }
 
 /* Main page */
@@ -36,8 +37,9 @@ h3 {
   font-family: "Rubik", sans-serif;
   color: var(--lightgreen);
   text-align: center;
-  padding-bottom: 50px;
-  width: 50%;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 50px;
 }
 
 .card-flex {
@@ -60,7 +62,7 @@ h3 {
   text-align: center;
 }
 
-.return-button {
+.button-container {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -80,7 +82,13 @@ h3 {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  max-width: 100%;
 }
+
+.btn:hover {
+  color: rgb(120, 120, 70);
+}
+
 
 .btn-abs {
   background-color: var(--lightgreen);
@@ -91,9 +99,50 @@ h3 {
   color: var(--beige);
 }
 
+li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+/* Checkbox */
+.custom-checkbox {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 5px solid var(--green);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  border-color: var(--green);
+  background-color: var(--green);
+}
+
+.custom-checkbox:checked::after {
+  color: #ffff;
+}
+
+.muscle-btn {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 600px) {
+  body {
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 35px;
+  }
 
   .container {
     display: flex;
@@ -101,6 +150,10 @@ h3 {
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 50px;
+  }
+
+  .button-container {
+    flex-direction: column;
   }
 
   .card-flex {
@@ -121,5 +174,8 @@ h3 {
   .return-button {
     gap: 20px;
   }
-  
+
+  .muscle-btn {
+    flex-direction: column;
+  }
 }

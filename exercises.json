@@ -1,0 +1,149 @@
+{
+    "bicep": [
+      {
+        "name": "Dumbbell Curl",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Cable Bicep Curl",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Incline Dumbbell Curl",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Hammer Curl",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Focused Curl",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Curl with EZ Bar",
+        "equipment": "Barbell"
+      },
+      {
+        "name": "Machine Bicep Curl",
+        "equipment": "Machine"
+      }
+    ],
+    "tricep": [
+      {
+        "name": "Tricep Bench Dips",
+        "equipment": "Bench"
+      },
+      {
+        "name": "Tricep Kickback",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Rope Tricep Pushdown",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Overhead Tricep Extension",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Tricep Pushdowns",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Tricep Bar Extension",
+        "equipment": "Barbell"
+      }
+    ],
+    "shoulder": [
+      {
+        "name": "Shoulder Press",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Arnold Press",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Lateral Raise",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Front Raise",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Upright Row",
+        "equipment": "Barbell"
+      },
+      {
+        "name": "Face Pull",
+        "equipment": "Cable Machine"
+      },
+      {
+        "name": "Barbell Overhead Press",
+        "equipment": "Barbell"
+      }
+    ],
+    "chest": [
+      {
+        "name": "Bench Press",
+        "equipment": "Barbell"
+      },
+      {
+        "name": "Dumbbell Fly",
+        "equipment": "Dumbbell"
+      },
+      {
+        "name": "Incline Bench Press",
+        "equipment": "Barbell"
+      },
+      {
+        "name": "Chest Dip",
+        "equipment": "Parallel Bars"
+      },
+      {
+        "name": "Push-Up",
+        "equipment": "Bodyweight"
+      },
+      {
+        "name": "Cable Crossover",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Chest Press Machine",
+        "equipment": "Machine"
+      }
+    ],
+    "leg": [
+      {
+        "name": "Squat",
+        "equipment": "Barbell"
+      },
+      {
+        "name": "Leg Press",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Lunges",
+        "equipment": "Bodyweight"
+      },
+      {
+        "name": "Leg Extension",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Deadlift",
+        "equipment": "Barbell"
+      },
+      {
+        "name": "Hamstring Curl",
+        "equipment": "Machine"
+      },
+      {
+        "name": "Calf Raise",
+        "equipment": "Machine"
+      }
+    ]
+  }
+  

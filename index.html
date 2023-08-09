@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workout Generator</title>
+    <title>Daily Workout Generator</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,23 +11,80 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Gym Workout Generator</h1>
-      <h3>Choose the number of days you're planning to work out this week:</h3>
-      <div
-        class="btn-group-vertical btn-flex"
-        role="group"
-        aria-label="Vertical button group"
-      >
-        <a href="./sections/3day.html" class="btn">Three days</a>
-        <a href="./sections/4day.html" class="btn">Four days</a>
-        <a href="./sections/5day.html" class="btn">Five days</a>
+      <h1>Daily Gym Workout</h1>
+      <div class="card-flex">
+        <!-- 2 -->
+        <div class="card" id="card">
+          <img
+            src="https://em-content.zobj.net/thumbs/160/apple/114/woman-weight-lifting_1f3cb-fe0f-200d-2640-fe0f.png"
+            alt="Emoji of a lifting woman"
+          />
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="btn" onclick="loadPreviousWorkout()">
+          Load (after refresh)
+        </button>
+        <button class="btn" onclick="getRandomItems()">Generate Workout</button>
       </div>
     </div>
+    <!-- Muscle buttons -->
+    <h3>Select one or more muscle groups:</h3>
+    <div class="muscle-btn">
+      <label class="btn"
+        ><input
+          type="checkbox"
+          id="check-bicep"
+          value="first_checkbox"
+          class="custom-checkbox"
+        />
+        Bicep</label
+      >
+      <label class="btn"
+        ><input
+          type="checkbox"
+          id="check-tricep"
+          value="first_checkbox"
+          class="custom-checkbox"
+        />Tricep</label
+      >
+      <label class="btn"
+        ><input
+          type="checkbox"
+          id="check-chest"
+          value="first_checkbox"
+          class="custom-checkbox"
+        />Chest</label
+      >
+      <label class="btn"
+        ><input
+          type="checkbox"
+          id="check-shoulder"
+          value="first_checkbox"
+          class="custom-checkbox"
+        />Shoulder</label
+      >
+      <label class="btn"
+        ><input
+          type="checkbox"
+          id="check-leg"
+          value="first_checkbox"
+          class="custom-checkbox"
+        />Leg</label
+      >
+    </div>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
